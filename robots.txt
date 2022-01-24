@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
+
+Sitemap: https://chominho96.github.io/sitemap.xml
