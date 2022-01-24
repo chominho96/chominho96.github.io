@@ -212,6 +212,10 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 
 # Sass/SCSS
@@ -290,7 +294,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
+      show_date: true
       comments: true
       share: true
       related: true
