@@ -1,9 +1,15 @@
+---
+layout: null
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
-        {% if post.sitemap.lastmod == null %}
+        {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         {% else %}
         <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
@@ -20,7 +26,7 @@
         {% else %}
         <priority>{{ post.sitemap.priority }}</priority>
         {% endif %}
-        
+
     </url>
     {% endfor %}
 </urlset>
