@@ -34,7 +34,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "boj" %}
-                        <li><a href="/categories/algorithm" class="">BOJ 문제풀이 (with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/boj" class="">BOJ 문제풀이 (with C++) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -43,6 +43,13 @@
                 {% for category in site.categories %}
                     {% if category[0] == "spring" %}
                         <li><a href="/categories/algorithm" class="">Spring 문법 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "aws" %}
+                        <li><a href="/categories/aws" class="">AWS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
