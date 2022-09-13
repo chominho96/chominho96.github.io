@@ -1,11 +1,11 @@
 ---
-title: "BOJ 문제풀이 (with C++)"
+title: "AWS"
 layout: archive
-permalink: categories/algorithm
+permalink: categories/aws
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.algorithm %}
+{% assign posts = site.categories.aws %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
