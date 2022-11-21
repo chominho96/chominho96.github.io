@@ -59,6 +59,12 @@ http {
 }
 ```
 
+이후 nginx 서버를 reload해주면 설정이 반영된다.
+
+```shell
+$ sudo nginx -s reload
+```
+
 이와 같이 설정하면 최대 20M의 Request를 보낼 수 있게 된다.
 
 이렇게 수정하고 정상적으로 Request가 보내지는 것을 확인했다.
