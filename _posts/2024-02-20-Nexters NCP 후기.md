@@ -22,7 +22,7 @@ last_modified_at: 2024-02-20
 
 현재 24기로 활동하면서 배당금 계산 서비스 Payout을 개발 중인데, 이에 대한 회고를 진행해보고자 한다.
 
-또한, NCP (Naver Cloud Platform)에서는 예비 개발자 지원 프로그램 (Green Developers)를 주관하고 있는데, 이 프로그램에 Nexters가 지원 대상이다!! (https://www.ncloud.com/support/greenDevelopers)
+또한, NCP (Naver Cloud Platform)에서는 예비 개발자 지원 프로그램 (Green Developers)를 주관하고 있는데, 이 프로그램에 Nexters가 지원 대상이다!! [Green Developers란?](https://www.ncloud.com/support/greenDevelopers)
 
 이에 이번 프로젝트에 NCP를 도입하려고 결정하였고, NCP에 대한 후기도 같이 써보고자 한다.
 
@@ -59,8 +59,8 @@ Payout은 미국 배당주식 투자자들이 자신의 포트폴리오에서 �
 <span style="color:teal">(자세한 서비스 설명은 다음 링크를 참조해주세요!)</span>
 
 - (서비스 URL 업로드 예정)
-- https://github.com/Nexters/payout-client
-- https://github.com/Nexters/payout-server
+- [Payout Client Repository](https://github.com/Nexters/payout-client)
+- [Payout Server Repository](https://github.com/Nexters/payout-server)
 
 # 🖥️ Naver Cloud Platform (NCP) 사용 후기
 
@@ -68,7 +68,7 @@ Payout은 미국 배당주식 투자자들이 자신의 포트폴리오에서 �
 
 처음에 NCP를 도입하는 것을 고민할 때의 주안점은 '<span style="color:green">기존에 사용하던 다른 클라우드(AWS 등)에서 제공하는 대부분의 기능을 제공하는가</span>'와 '<span style="color:green">기존에 사용하던 다른 클라우드의 인터페이스와 유사한가</span>'였다.
 
-일단 먼저 NCP에서 제공하는 모든 기능을 살펴보았는데, AWS 등에서 지원하는 일부 마이너한 기능들은 제공할지 않을지도 모르지만, 서버 및 인프라 구축에 필요한 필수 기능들은 모두 찾아볼 수 있었다. (전체 서비스: https://www.ncloud.com/product)
+일단 먼저 NCP에서 제공하는 모든 기능을 살펴보았는데, AWS 등에서 지원하는 일부 마이너한 기능들은 제공할지 않을지도 모르지만, 서버 및 인프라 구축에 필요한 필수 기능들은 모두 찾아볼 수 있었다. [NCP 전체 서비스 보기](https://www.ncloud.com/product)
 
 이 중 우리 프로젝트에서 사용한 서비스는 다음과 같다.
 
