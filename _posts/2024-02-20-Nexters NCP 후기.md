@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 
 date: 2024-02-20
-last_modified_at: 2024-02-20
+last_modified_at: 2024-03-12
 ---
 
 # 🔥 Nexters란?
@@ -59,7 +59,7 @@ Payout은 미국 배당주식 투자자들이 자신의 포트폴리오에서 �
 
 <span style="color:teal">(자세한 서비스 설명은 다음 링크를 참조해주세요!)</span>
 
-- (서비스 URL 업로드 예정)
+- [Payout](https://pay-out.us)
 - [Payout Client Repository](https://github.com/Nexters/payout-client)
 - [Payout Server Repository](https://github.com/Nexters/payout-server)
 
