@@ -60,6 +60,28 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">NLP</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "papers" %}
+                        <li><a href="/categories/papers" class="">논문 리뷰 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "langchain" %}
+                        <li><a href="/categories/langchain" class="">Langchain ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.llm %}
+                    {% if category[0] == "llm" %}
+                        <li><a href="/categories/llm" class="">LLM ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">Python</span>
             <ul>
                 {% for category in site.categories %}
