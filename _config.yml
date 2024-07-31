@@ -19,7 +19,7 @@ locale: "ko-KR"
 title: "Step by Step"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "Min-Ho CHO"
+name: "Minho Cho"
 description: "Development & Study Log"
 url: "https://chominho96.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -109,10 +109,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "https://l.linklyhq.com/l/iQBN"
+      url: "mailto:'chominho96@naver.com'"
     - label: "About me"
       icon: "fas fa-fw fa-link"
-      url: "https://chominho96.notion.site/e4e17531b62b46dab31082421c6d70b7"
+      url: "https://minho-cho.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -122,19 +122,25 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chominho96"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/minho-cho/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/do_mihno_"
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "https://l.linklyhq.com/l/iQBN"
+      url: "mailto:'chominho96@naver.com'"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://chominho96.github.io"
+    - label: "About me"
+      icon: "fas fa-fw fa-link"
+      url: "https://minho-cho.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -147,12 +153,12 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/minho-cho/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/do_mihno_"
 
 # Reading Files
 include:
