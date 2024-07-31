@@ -3,7 +3,7 @@ title: "Attention is all you need 논문 리뷰"
 excerpt: "Transformer"
 
 categories:
-  - nlp
+  - papers
 
 toc: true
 toc_sticky: true
