@@ -137,7 +137,7 @@ footer:
       url: "mailto:'chominho96@naver.com'"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://chominho96.github.io"
+      #url: "https://chominho96.github.io"
     - label: "About me"
       icon: "fas fa-fw fa-link"
       url: "https://minho-cho.com"
