@@ -1,6 +1,6 @@
 ---
 title: "Searching for Best Practices in Retrieval-Augmented Generation 논문 리뷰"
-excerpt: "rag"
+excerpt: "RAG 기법과 성능 비교"
 
 categories:
   - papers

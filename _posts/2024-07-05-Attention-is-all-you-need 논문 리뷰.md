@@ -1,6 +1,6 @@
 ---
 title: "Attention is all you need 논문 리뷰"
-excerpt: "Transformer"
+excerpt: "Transformer model의 시초"
 
 categories:
   - papers

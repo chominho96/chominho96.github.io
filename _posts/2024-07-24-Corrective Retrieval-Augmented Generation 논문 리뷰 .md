@@ -1,6 +1,6 @@
 ---
 title: "Corrective Retrieval Augmented Generation 논문 리뷰"
-excerpt: "rag"
+excerpt: "Retrieval evaluator을 이용한 retrieve 성능 향상"
 
 categories:
   - papers
