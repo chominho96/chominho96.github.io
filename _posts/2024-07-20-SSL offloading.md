@@ -99,7 +99,7 @@ SSL offloading은 L4 switch (Load balancing을 처리하는 장비)의 HTTPS han
 
 ![제목 없음](https://github.com/user-attachments/assets/b3deb091-d432-440b-a115-243643ac2993)
 
-즉, 일반적인 HTTP를 위한 handshake 이외에 HTTPS를 사용하면 위의 그림과 같은 https handshake가 추가적으로 필요하다.
+HTTPS handshake란, https 통신을 맺게 위해 서버와 클라이언트 간 통신을 맺는 과정이다. HTTP를 위한 handshake가 끝나고 나서, 별도로 진행된다.
 
 SSL offloading이 적용되지 않은 로드밸런서-서버의 구조는 다음과 같다.
 
