@@ -1,10 +1,10 @@
 ---
-title: "C++ Programming"
+title: "Java Programming"
 layout: archive
-permalink: categories/cpp
+permalink: categories/java
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.cpp %}
+{% assign posts = site.categories.java %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
