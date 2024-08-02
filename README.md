@@ -2,4 +2,4 @@
 
 ## Minimal Mistakes 기반 깃허브 블로그
 
-- chominho96.github.io
+[🔗 블로그 바로가기](chominho96.github.io)
