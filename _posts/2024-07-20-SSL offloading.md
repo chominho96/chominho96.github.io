@@ -20,7 +20,7 @@ Nexters 24기에서 만든 [Payout](https://pay-out.us) 서비스에 대해 얼�
 
 질문을 받고 nginx.conf 파일을 살펴봤는데 다음과 같이 되어 있었다.
 
-```apacheconf
+```nginx
 user nginx;
 worker_processes  auto;
 
