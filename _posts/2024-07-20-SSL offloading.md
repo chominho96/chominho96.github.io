@@ -97,13 +97,13 @@ http {
 
 SSL offloading은 L4 switch (Load balancing을 처리하는 장비)의 HTTPS handshake overhead를 줄이기 위한 기법이다.
 
-![제목 없음](https://github.com/user-attachments/assets/b3deb091-d432-440b-a115-243643ac2993)
+<p align="center"><img src="https://github.com/user-attachments/assets/b3deb091-d432-440b-a115-243643ac2993"></p>
 
 HTTPS handshake란, https 통신을 맺게 위해 서버와 클라이언트 간 통신을 맺는 과정이다. HTTP를 위한 handshake가 끝나고 나서, 별도로 진행된다.
 
 SSL offloading이 적용되지 않은 로드밸런서-서버의 구조는 다음과 같다.
 
-![제목 없음](https://github.com/user-attachments/assets/1d4191c3-867e-4cc5-bd97-dbccdb5a9bfa)
+<p align="center"><img src="https://github.com/user-attachments/assets/1d4191c3-867e-4cc5-bd97-dbccdb5a9bfa"></p>
 
 이 구조에서는 2번의 HTTPS 통신이 발생하게 된다.
 
@@ -114,7 +114,7 @@ SSL offloading이 적용되지 않은 로드밸런서-서버의 구조는 다음
 
 따라서, <span style='color: red'>클라이언트와 로드 밸런서 간 HTTPS 통신만 진행하고, 로드 밸런서와 서버는 HTTP로 통신</span>을 진행하도록 하는 기법이 SSL offloading이다.
 
-![제목 없음](https://github.com/user-attachments/assets/4c65a6fd-bfc7-4685-98e6-f20b51b2b2a3)
+<p align="center"><img src="https://github.com/user-attachments/assets/4c65a6fd-bfc7-4685-98e6-f20b51b2b2a3"></p>
 
 위 그림과 같이 SSL offloading을 적용하게 되면, 서버에 가해지는 overhead가 적어짐으로써 성능이 향상될 수 있다.
 
