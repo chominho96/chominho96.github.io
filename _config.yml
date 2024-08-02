@@ -103,7 +103,7 @@ analytics:
 author:
   name: "Minho Cho"
   avatar: "/assets/images/profile_image.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Welcome 🐢"
+  bio: "Welcome! 🐢"
   location: "Seongnam, Korea"
   email:
   links:
